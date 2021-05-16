@@ -1,0 +1,34 @@
+footer {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 75px;
+    text-align: end;
+}
+
+.copa1 {
+    background-color: rgba(255, 94, 0, 0.658);
+}
+
+.copa2 {
+    background-color: rgba(102, 102, 102, 0.623);
+}
+
+#btn_login {
+    visibility: hidden;
+}
+
+#tabla_usuarios {
+    visibility: hidden;
+}
+.todosEquipos{
+    background-color: antiquewhite;
+}
+
+@media screen and (min-width: 576px) {
+    h1 {
+        text-align: center;
+    }
+    #tabla_usuarios {
+        visibility: visible;
+    }
+}
